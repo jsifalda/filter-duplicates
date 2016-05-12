@@ -1,0 +1,28 @@
+{
+  "name": "filter-duplicates",
+  "version": "1.0.0",
+  "description": "Remove duplicated items from the array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsifalda/filter-duplicates.git"
+  },
+  "keywords": [
+    "array",
+    "filter",
+    "duplicates",
+    "duplicated"
+  ],
+  "author": "Jiri Sifalda <sifalda.jiri@gmail.com> (http://jsifalda.name/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsifalda/filter-duplicates/issues"
+  },
+  "homepage": "https://github.com/jsifalda/filter-duplicates#readme",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  }
+}
