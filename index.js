@@ -1,12 +1,9 @@
-module.exports = function (array) {
-  var result = array
+module.exports = function(array) {
   if (typeof Set !== 'undefined') {
-    result = Array.from(new Set(array))
-  } else {
-    result = array.filter(function (item, position, self) {
-      return self.indexOf(item) === position
-    })
+    return Array.from(new Set(array))
   }
 
-  return result
+  return array.filter(function(item, position, self) {
+    return self.indexOf(item) === position
+  })
 }

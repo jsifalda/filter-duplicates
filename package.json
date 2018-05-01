@@ -1,6 +1,6 @@
 {
   "name": "filter-duplicates",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Remove duplicated items from the array",
   "main": "index.js",
   "scripts": {
